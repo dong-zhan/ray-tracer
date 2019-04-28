@@ -1,5 +1,6 @@
 //r is the radius of the cylinder
 //ro, rd is the ray
+//reference: https://www.doc.ic.ac.uk/~dfg/graphics/graphics2009/GraphicsLecture11.pdf
 bool rayIntersectCylinderBody(CVector4D<>&ro, CVector4D<>&rd, CVector4D<>&p1, CVector4D<>&p2, float r, float& tnear, float&tfar)
 {
 	CVector4D<>dp = p2 - p1;		//axis of cylinder
