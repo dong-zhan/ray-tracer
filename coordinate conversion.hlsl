@@ -9,7 +9,7 @@ float2 sphericalToPlanar(float3 nPos)	//normalized pos
 	return tex;
 }
 
-//convert 3d cartesian coordiantes to planar coordinates
+//convert 3d cartesian coordiantes on a plane to planar coordinates
 float2 coord3dTo2D(float3 ip, float3 orig, float3 right, float3 normal)
 {
 	float3 dir = ip - orig;
