@@ -1,3 +1,9 @@
+//p: ray o
+//v: ray dir
+//pa: cone apex
+//va: cone dir
+//sina2: sin(half apex angle) squared
+//cosa2 : cos(half apex angle) squared
 bool intersectInfiniteCone(float3 p, float3 v, float3 pa, float3 va, float sina2, float cosa2, out float tnear, out float tfar)
 {
 	float3 dp = p - pa;
